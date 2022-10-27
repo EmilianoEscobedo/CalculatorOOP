@@ -22,7 +22,7 @@ class Btn():
             if screen._result.get() == 'Math error!':
                 screen._result.set('')
             if char_pressed == '=':
-               Calculator().solve(screen)
+               Calculator()._solve(screen)
             elif char_pressed == '<<':
                 screen._result.set(screen._result.get()[:-1])
             elif char_pressed == 'clear':
@@ -35,7 +35,7 @@ class Btn():
 class Create_Btns():
     # A Create_Btns can only create btns 
     def __init__(self):
-        self._chars = ['7','8','9','*','4','5','6','/','1','2','3','-','0','.','=','+','clear','<<']
+        self._chars = ['7','8','9','*','4','5','6','/','1','2','3','-','0','.','=','+','(',')','clear','<<']
         self._pos_row=0
         self._pos_col=1
     def create(self, frame_to, screen_to):
