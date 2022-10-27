@@ -48,7 +48,7 @@ class Create_Btns():
 
 class Calculator():
     # A calculator can only solve math operations
-    def solve(self, operation):
+    def _solve(self, operation):
         try:
             solved = eval(operation._result.get())
             operation._result.set(solved)
