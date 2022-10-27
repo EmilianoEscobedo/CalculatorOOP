@@ -29,7 +29,7 @@ class Btn():
                 screen._result.set('')
             else:
                 screen._result.set(screen._result.get() + char_pressed)
-        self._btn = Button(frame, text=char, pady=2, padx=2, width=4, height=2, command=lambda:__action(char))
+        self._btn = Button(frame, text=char, pady=2, padx=2, width=5, height=2, command=lambda:__action(char))
         self._btn.grid(row=pos_row, column=pos_col)
 
 class Create_Btns():
