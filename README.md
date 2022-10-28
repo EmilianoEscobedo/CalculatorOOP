@@ -9,7 +9,7 @@ Sample calculator system builded with objects, written in python, using Tk libra
 
 ## Features
 
-- Add
-- Substration
-- Product
-- Division
+:heavy_plus_sign:  Add <br><br>
+:heavy_minus_sign:  Substration <br><br>
+:heavy_multiplication_x: Product <br><br>
+:heavy_division_sign:  Division <br><br>
