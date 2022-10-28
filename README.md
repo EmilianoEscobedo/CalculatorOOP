@@ -1,6 +1,6 @@
 # Calculator OOP
 
-Simple calculator system builded with objects, written in python, using Tk library as GUI.
+Simple calculator system built with objects, written in python, using Tk library as GUI.
 <br><br>
 <div align="center">
   <img src="https://i.ibb.co/ByvJh3Z/Calc.png" />
