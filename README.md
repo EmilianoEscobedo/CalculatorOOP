@@ -1,3 +1,12 @@
-# LCS
-A tiny and rookie calculator interface builded in pure .Py with the unique purpose of record the first project i made with OOP and this lenguaje.
-The file .py named "calc" is the launchable interface.
+# Calculator OOP
+
+Sample calculator system builded with objects.
+
+<img src="../calc.png" alt="Calculator">
+
+## Features
+
+- Add
+- Substration
+- Product
+- Division
