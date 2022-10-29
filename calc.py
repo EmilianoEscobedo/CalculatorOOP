@@ -13,7 +13,7 @@ class Screen():
     def __init__(self, frame):
         self._result= StringVar()
         self._screen = Entry(frame, width=26, background='black',fg='green', justify='right', textvariable=self._result)
-        self._screen.pack(ipady=5)
+        self._screen.pack(pady= [20,5], ipady=7)
 
 class Btn():
     # A Btn can only creates itself, and send its text values to other objects 
@@ -35,7 +35,7 @@ class Btn():
 class Create_Btns():
     # A Create_Btns can only create btns 
     def __init__(self):
-        self._chars = ['7','8','9','*','4','5','6','/','1','2','3','-','0','.','=','+','(',')','clear','<<']
+        self._chars = '7','8','9','*','4','5','6','/','1','2','3','-','0','.','=','+','(',')','clear','<<'
         self._pos_row=0
         self._pos_col=1
     def create(self, frame_to, screen_to):
